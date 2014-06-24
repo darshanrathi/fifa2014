@@ -1,0 +1,39 @@
+{
+    "name": "application-name"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "express": "2.5.8"
+    , "stylus": ">= 0.0.1"
+    , "jade": ">= 0.0.1"
+  }
+}
+
+
+{
+  "name": "fifa2014",
+  "version": "0.0.0",
+  "description": "Apigee fifa2014 App",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/darshanrathi/fifa2014.git"
+   },
+  "keywords": [
+    "fifa",
+    "heroku",
+    "darshan"
+  ],
+  "author": "darshan rathi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "2.5.8",
+ 	"stylus": ">= 0.0.1",
+    "jade": ">= 0.0.1",
+    "ejs": "0.8.4"
+
+  }
+}

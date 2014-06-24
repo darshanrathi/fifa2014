@@ -1,0 +1,246 @@
+.modal {
+    width: 500px;
+    margin: 50px auto;
+        
+
+}
+.outer-container { 
+    width: 700px;
+    margin: 50px auto;
+    background-color: #fff;
+    z-index: 999;
+    height: auto;
+    position: relative;
+    
+}
+.modal .outer-container {
+    width: 100%;
+}
+.container {
+    width: 100%;
+}
+.main.container {
+    padding: 30px;
+    text-align: center;
+}
+#overlay_shield {
+    background-color: #000000;
+    color: #FF0000;
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background: url(../images/fifa2014.jpg);
+}    
+.navbar .container {
+    padding: 25px;
+}
+.navbar .container img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    
+}
+.navbar .container h1 {
+    float: left;
+    margin: 7px 0 0 20px;
+}
+.navbar .container .profile-country {
+    float: right;
+    margin-top: 15px;
+}
+.navbar .container .profile-country .flag {
+    width: 30px;
+    height: 23px;
+    float: left;    
+    margin-top: 2px;
+}
+
+.imgflag {
+    padding-top: 6px;
+    float: left;
+    vertical-align: middle;
+}
+
+.navbar .container .profile-country h3 {
+    float: left;
+    margin: 0 20px 0 10px;
+    color: #fff
+}
+
+.user-info {
+    background-color: #2b3e50;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+.user-info p {
+    font-size: 130%;
+    color: #fff;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.user-info p span {
+    font-weight: bold;
+}    
+.user-info h3 {
+    padding: 0;
+    margin: 0;
+}
+.twitter-circle {
+    float: left;
+    background: url(../images/twitter-circle.png) no-repeat;
+    width: 100px;
+    height: 140px;
+}
+.twitter-circle h4 {
+    margin-top: 110px
+}
+.mobile-circle {
+    float: right;
+    background: url(../images/mobile-circle.png) no-repeat center top;
+    width: 150px;
+    height: 140px;
+}
+.mobile-circle h4 {
+    margin-top: 112px
+}
+
+.hexagon-container h4 {
+    margin-top: 55px;
+}
+.switch-arrow {
+    background: url(../images/Switch.png) no-repeat;
+    width: 61px;
+    height: 45px;
+    float: left;
+    margin: 30px 0 0 75px
+}
+    
+.btn-success {
+    background-color: #adc742;
+}
+.btn-block {
+    margin: 10px 0;
+    border: none;
+}
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.authorization {
+    text-align: left;
+}
+.authorization ul {
+    margin-left: 20px; 
+}
+.authorization ul, .authorization ul li {
+    text-align: left;
+    list-style: disc;
+}
+.authorization h3 {
+    text-align: left;
+}        
+.authorization ul li.disabled {
+    color: #ccc;
+}
+.rular {
+    height:5px;
+    width: 100%;
+    background-color: #ccc;
+    margin: 15px 0;
+}
+.authorization .btn.agree {
+    background-color: #adc742;
+    border: none;
+    width: 48%;
+}
+.authorization .btn.disagree {
+    background-color: #f2f2f2;
+    border: none;
+    width: 48%;
+}
+
+ul.countries {
+    margin-bottom: 10px;
+}
+ul.team-members {
+    display: none;
+}
+input {
+    text-align: left;
+}
+.dropdown-title {
+    font-size: 18px;
+    height: 46px;
+    line-height: 1.33;
+    padding: 10px 16px;
+    float: left;
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;    
+    border: 1px solid #CCCCCC;
+    border-radius: 0 6px 6px 0;
+}
+ul li .input-group {
+    width: 100%;
+}
+ul li.with-menu .dropdown-title {
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 6px;
+}
+ul li.country .dropdown-title {
+    border-top: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #cccccc;
+}
+ul li.country .dropdown-title.last {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.dropdown-title .default-text {
+    width: 80%;
+    float: left;
+    color: #5680be;
+    text-align: left;
+    padding-left: 20px;
+}
+.text-container {
+    float: left;
+    width: 80%;
+    
+}
+.text-container span.flag {
+    width: 30px;
+    height: 23px;
+    display: inline-block;
+    float: left;
+}    
+.text-container span.flag.el-salvador {
+    background: url(../images/El-Salvador.png) no-repeat;
+}
+.text-container span.flag.colombia {
+    background: url(../images/Colombia.png) no-repeat;
+}
+
+.text-container p {
+    padding-left: 20px;
+    float: left;
+}
+.caret-container {
+    float: right;
+    cursor: hand;
+    display: inline-block;
+}
+.team-details .team-alike, .team-details .other-teams {
+    float: left;
+    width: 45%;
+}
+ .team-details .other-teams {
+     margin-left: 5%;
+ }
